@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects[Movies]</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <script src="/scripts/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Simple movie database</h1>
+    </header>
+    <main>
+      <div class="card">
+        <!-- <h1>Favourite Movie</h1> -->
+        <label for="fav-movie">Favourite Movie</label>
+        <input type="text" id="fav-movie" />
+        <section class="controls">
+            <div>
+                  <label for="name">Extra Information</label>
+          <input type="text" id="name" />
+            </div>
+        <div>
+           <label for="value">Extra information(Value)</label>
+          <input type="text" id="value" />  
+        </div>
+         
+        </section>
+
+        <button type="submit" class="add-movie">Add Movie</button>
+      </div>
+      <div class="card">
+        <label for="filter-title">Filter By Title</label>
+        <input type="text" id="filter-title" />
+
+        <button type="submit" class="search">Search</button>
+      </div>
+      <ul id="movies"></ul>
+    </main>
+  </body>
+</html>

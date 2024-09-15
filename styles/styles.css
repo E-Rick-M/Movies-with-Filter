@@ -1,0 +1,107 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: olivedrab;
+    padding: 1.5rem;
+    text-align: center;
+    /* margin-bottom: 1rem; */
+    
+}
+header h1{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+.card{
+    background-color:rgb(158, 56, 56);
+    padding: 2rem;
+    max-width: 40rem;
+    display: block;
+    text-align: start;
+    margin: 1rem auto 1rem auto;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px rgb(44, 36, 36)
+}
+label,input,button{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0.5rem 0;
+    font-size: 1.35rem;
+}
+
+label{
+    /* margin: 0.5rem 0; */
+    text-align: start;
+}
+.controls{
+    width: 100%;
+    display: inline-block;
+    text-align: start;
+    margin-top: 1.2rem;
+}
+.controls div{
+    display: inline-block;
+    width: 40%;
+    margin: 0 1.2rem 0 0;
+    /* text-align: center; */
+}
+/* .controls div > label,input{
+    display: inline-block;
+    width: 50%;
+} */
+/* .controls > input, .controls>label{
+    text-align: start;
+    display: inline-block;
+} */
+
+main .card input{
+    background-color:rgb(158, 56, 56);
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    /* border-radius: 4px; */
+    outline: none;
+    margin: 0;
+}
+button{
+    text-align: start;
+    margin-top: 1.5rem;
+    width: 20%;
+    padding: 0.5rem;
+    border: 2px solid transparent;
+    background-color:white;
+    color: black;
+    border-radius:5px ;
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: chocolate;
+}
+ul{
+    display: none;
+    background-color: cyan;
+    padding: 1rem;
+    color: red;
+    max-width: 35rem;
+    margin: 1rem auto;
+    box-shadow: 0px 2px 8px rgb(0, 0,0.9);
+    border-radius: 6px;
+}
+ul.visible{
+    display: block;
+}
+li{
+    list-style: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
